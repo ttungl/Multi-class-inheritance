@@ -20,4 +20,5 @@ This work extends a new capability of a Classes language in Scheme language. It 
 
 * `Expression::= getfield identifier identifier`
 
-	Description: classmerge allows merging two existing classes and adding to a third class.
+	Description: `classmerge` allows merging two existing classes and adding to a third class. This could be added up to `n` classes and all methods and fields are inherited to the class `(n+1)^th`.
+	
