@@ -36,7 +36,7 @@ This work extends a new capability of a `Classes` language in Scheme. It allows 
 3. `Find-method`: 
 	* Find a method based on the method name in the class’s prototype.
 4. `Construct-field-names` and `construct-fields`:
-	* Construct the `fields` and `field-names` into the class’ prototypes.
+	* Construct the `fields` and `field-names` into the class’s prototypes.
 5. `add-to-class-env!`:
 	* Update a new class to the list of the global class environment `the-class-env`. It also checks the class is whether or not in the existing class of the list, if so, it updates the latest one.
 6. `Update-class-env`:
