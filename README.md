@@ -1,6 +1,6 @@
 # Multi-class inheritance
 	Author: Tung Thanh Le
-	Contact: ttungl at gmail
+	Contact: ttungl at gmail dot com
 ## Introduction
 Used Scheme (Dr. Racket) to modify the interpreter for creating new functions of a language. In this work, multi-class inheritance is created. New instance generated is inherited to all the methods from joined classes. Used Scheme language for implementation.
 ## In-Detail
