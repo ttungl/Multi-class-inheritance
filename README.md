@@ -83,5 +83,6 @@ This work extends a new capability of a `Classes` language in Scheme. It allows 
 
 ## Explanation of the above example
 * We merge all the fields and methods of class `c1` and `c2`, then add to class `c4`. Now, we create an instance `o` with all properties of class `c4` which inherits from class `c1` and `c2`.
+
 * When `field 1` in class `c1` is set to `5`, and `f1` in instance `o` is set to `20`, and set `f4` in class `c2` to `15`, and then set `f4` in the instance `o` to `30`, we get the list of result as follows `(20 5 15 30)`. This means that the instance `o` has all properties of class `c4` which is inherited from class `c1` and `c2`.
 
