@@ -2,7 +2,7 @@
 	Author: Tung Thanh Le
 	Contact: ttungl at gmail dot com
 ## Introduction
-Used Scheme (Dr. Racket) to modify the interpreter for creating new functions of a language. In this work, multi-class inheritance is created. New instance generated is inherited to all the methods from joined classes. Used Scheme language for implementation.
+Used Scheme (Dr. Racket) to modify the interpreter for creating new functions of a language. In this work, multi-class inheritance is created. A new instance generated is inherited to all the methods from the joined classes. Used Scheme language for implementation.
 ## In-Detail
 This work extends a new capability of a `Classes` language in Scheme. It allows a class that can be created from two existing classes and owns its inherited properties (fields & methods) from two existing classes. It also allows to set/get a value of a class’s field.
 ## Grammar
