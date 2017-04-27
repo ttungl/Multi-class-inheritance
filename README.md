@@ -69,15 +69,15 @@ This work extends a new capability of a `Classes` language in Scheme. It allows 
 	t3=0
 	t4=0
 	in begin
-	setfield c1 f1 = 5;
-	send o setf1(20);
-	set t2 = getfield c1 f1;
-	set t1 = send o getf1();
-	send o setf4(30);
-	setfield c2 f4 =15;
-	set t3 = getfield c2 f4;
-	set t4 = send o getf4();
-	list(t1,t2,t3,t4)
+		setfield c1 f1 = 5;
+		send o setf1(20);
+		set t2 = getfield c1 f1;
+		set t1 = send o getf1();
+		send o setf4(30);
+		setfield c2 f4 =15;
+		set t3 = getfield c2 f4;
+		set t4 = send o getf4();
+		list(t1,t2,t3,t4)
 	end
 	=> (20 5 15 30)
 
